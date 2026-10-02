@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="836" height="380" viewBox="0 0 836 380" role="img" aria-label="Terminal output of chafe --demo --apply">
+<rect width="836" height="380" rx="10" fill="#0d1117"/>
+<rect width="836" height="34" rx="10" fill="#161b22"/><rect y="24" width="836" height="10" fill="#161b22"/>
+<circle cx="20" cy="17" r="5.5" fill="#ff5f56"/><circle cx="40" cy="17" r="5.5" fill="#ffbd2e"/><circle cx="60" cy="17" r="5.5" fill="#27c93f"/>
+<text x="418" y="21" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#8b949e">$ chafe --demo --apply</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<text x="22" y="54" xml:space="preserve"><tspan fill="#c9d1d9">Would add to examples/demo-project/repo/AGENTS.md:</tspan></text>
+<text x="22" y="73" xml:space="preserve"></text>
+<text x="22" y="92" xml:space="preserve"><tspan fill="#c9d1d9">&lt;!-- chafe:start (generated from session logs; refresh with chafe --apply --write) --&gt;</tspan></text>
+<text x="22" y="111" xml:space="preserve"><tspan fill="#c9d1d9">## Learned from past sessions</tspan></text>
+<text x="22" y="130" xml:space="preserve"></text>
+<text x="22" y="149" xml:space="preserve"><tspan fill="#c9d1d9">- Run `npm test -- --run`, not `npm test` (failed 6× in 6 sessions: `ERROR  vitest is</tspan></text>
+<text x="22" y="168" xml:space="preserve"><tspan fill="#c9d1d9">    running in watch mode but stdin is not a TTY`).</tspan></text>
+<text x="22" y="187" xml:space="preserve"><tspan fill="#c9d1d9">- `pnpm` is not available here; use `npm install` instead (failed 4× in 4 sessions: `zsh:</tspan></text>
+<text x="22" y="206" xml:space="preserve"><tspan fill="#c9d1d9">    command not found: pnpm`).</tspan></text>
+<text x="22" y="225" xml:space="preserve"><tspan fill="#c9d1d9">- Run `DATABASE_URL=file:./dev.db npx prisma migrate dev`, not `npx prisma migrate dev`</tspan></text>
+<text x="22" y="244" xml:space="preserve"><tspan fill="#c9d1d9">    (failed 3× in 3 sessions: `Error: Environment variable not found: DATABASE_URL.`).</tspan></text>
+<text x="22" y="263" xml:space="preserve"><tspan fill="#c9d1d9">- Reminder (said 3× across 3 sessions): You edited dist/ again, change the source in src/</tspan></text>
+<text x="22" y="282" xml:space="preserve"><tspan fill="#c9d1d9">    instead</tspan></text>
+<text x="22" y="301" xml:space="preserve"><tspan fill="#c9d1d9">&lt;!-- chafe:end --&gt;</tspan></text>
+<text x="22" y="320" xml:space="preserve"></text>
+<text x="22" y="339" xml:space="preserve"><tspan fill="#c9d1d9">Re-run with --write to save.</tspan></text>
+</g></svg>
