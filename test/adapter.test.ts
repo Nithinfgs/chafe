@@ -72,8 +72,12 @@ test("returns null for logs without calls or messages", async () => {
 
 test("discovers only the requested project's folders", () => {
   const dir = tmp();
-  const proj = "/work/app";
-  for (const name of [encodeProjectDir(proj), `${encodeProjectDir(proj)}-sub`, "-work-other"]) {
+  const proj = path.resolve("/work/app");
+  for (const name of [
+    encodeProjectDir(proj),
+    `${encodeProjectDir(proj)}-sub`,
+    encodeProjectDir(path.resolve("/work/other")),
+  ]) {
     fs.mkdirSync(path.join(dir, name));
     fs.writeFileSync(path.join(dir, name, "x.jsonl"), "");
   }
