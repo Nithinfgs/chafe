@@ -6,3 +6,4 @@ dist/
 !.env.example
 .DS_Store
 chafe-report.html
+docs/launch/
