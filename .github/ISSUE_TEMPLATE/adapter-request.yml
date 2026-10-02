@@ -1,0 +1,14 @@
+name: Agent adapter request
+description: Support another coding agent's logs
+labels: [adapter]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+    validations: { required: true }
+  - type: textarea
+    id: format
+    attributes:
+      label: Where the logs live and what a tool call looks like
+      description: A short, REDACTED sample is ideal.

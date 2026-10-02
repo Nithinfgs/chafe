@@ -1,0 +1,19 @@
+name: Bad suggestion
+description: chafe suggested a rule or finding that was wrong or noisy
+labels: [heuristics]
+body:
+  - type: textarea
+    id: finding
+    attributes:
+      label: The finding
+      description: Paste the report entry. Redact anything private.
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it's wrong
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: chafe version and Node version
