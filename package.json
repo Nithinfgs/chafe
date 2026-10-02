@@ -42,10 +42,10 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "test": "npm run build && node scripts/test.mjs",
     "demo:gen": "node scripts/gen-demo.mjs",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run build && node --test \"dist/test/*.test.js\""
+    "prepublishOnly": "npm run build && node scripts/test.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
