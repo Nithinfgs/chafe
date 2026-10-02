@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="836" height="893" viewBox="0 0 836 893" role="img" aria-label="Terminal output of chafe --demo">
+<rect width="836" height="893" rx="10" fill="#0d1117"/>
+<rect width="836" height="34" rx="10" fill="#161b22"/><rect y="24" width="836" height="10" fill="#161b22"/>
+<circle cx="20" cy="17" r="5.5" fill="#ff5f56"/><circle cx="40" cy="17" r="5.5" fill="#ffbd2e"/><circle cx="60" cy="17" r="5.5" fill="#27c93f"/>
+<text x="418" y="21" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#8b949e">$ chafe --demo</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<text x="22" y="54" xml:space="preserve"><tspan fill="#c9d1d9" font-weight="700">chafe</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#6e7681">·</tspan><tspan fill="#c9d1d9"> 11 sessions </tspan><tspan fill="#6e7681">·</tspan><tspan fill="#c9d1d9"> 81 tool calls </tspan><tspan fill="#6e7681">·</tspan><tspan fill="#c9d1d9"> 29 failed (36%) </tspan><tspan fill="#6e7681">·</tspan><tspan fill="#c9d1d9"> 2026-09-02 → 2026-09-28</tspan></text>
+<text x="22" y="73" xml:space="preserve"><tspan fill="#6e7681">instruction files: AGENTS.md</tspan></text>
+<text x="22" y="92" xml:space="preserve"></text>
+<text x="22" y="111" xml:space="preserve"><tspan fill="#c9d1d9" font-weight="700">FAILED, THEN FIXED</tspan><tspan fill="#c9d1d9">  </tspan><tspan fill="#6e7681">commands your agent got wrong, then corrected</tspan></text>
+<text x="22" y="130" xml:space="preserve"></text>
+<text x="22" y="149" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#ff7b72">✗</tspan><tspan fill="#c9d1d9"> npm test</tspan></text>
+<text x="22" y="168" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#7ee787">✓</tspan><tspan fill="#c9d1d9"> npm test -- --run</tspan></text>
+<text x="22" y="187" xml:space="preserve"><tspan fill="#6e7681">    6× in 6 sessions · last 2026-09-28 · ERROR  vitest is running in watch mode but stdin is</tspan></text>
+<text x="22" y="206" xml:space="preserve"><tspan fill="#c9d1d9">    not a TTY</tspan></text>
+<text x="22" y="225" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#7ee787">● not in your instructions yet</tspan></text>
+<text x="22" y="244" xml:space="preserve"></text>
+<text x="22" y="263" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#ff7b72">✗</tspan><tspan fill="#c9d1d9"> pnpm install</tspan></text>
+<text x="22" y="282" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#7ee787">✓</tspan><tspan fill="#c9d1d9"> npm install</tspan></text>
+<text x="22" y="301" xml:space="preserve"><tspan fill="#6e7681">    4× in 4 sessions · last 2026-09-26 · zsh: command not found: pnpm</tspan></text>
+<text x="22" y="320" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#7ee787">● not in your instructions yet</tspan></text>
+<text x="22" y="339" xml:space="preserve"></text>
+<text x="22" y="358" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#ff7b72">✗</tspan><tspan fill="#c9d1d9"> node scripts/seed.ts</tspan></text>
+<text x="22" y="377" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#7ee787">✓</tspan><tspan fill="#c9d1d9"> npx tsx scripts/seed.ts</tspan></text>
+<text x="22" y="396" xml:space="preserve"><tspan fill="#6e7681">    4× in 4 sessions · last 2026-09-24 · TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown</tspan></text>
+<text x="22" y="415" xml:space="preserve"><tspan fill="#c9d1d9">    file extension …</tspan></text>
+<text x="22" y="434" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#e3b341">⚠ documented, but happened 2× since the file changed</tspan></text>
+<text x="22" y="453" xml:space="preserve"></text>
+<text x="22" y="472" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#ff7b72">✗</tspan><tspan fill="#c9d1d9"> npx prisma migrate dev</tspan></text>
+<text x="22" y="491" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#7ee787">✓</tspan><tspan fill="#c9d1d9"> DATABASE_URL=file:./dev.db npx prisma migrate dev</tspan></text>
+<text x="22" y="510" xml:space="preserve"><tspan fill="#6e7681">    3× in 3 sessions · last 2026-09-26 · Error: Environment variable not found:</tspan></text>
+<text x="22" y="529" xml:space="preserve"><tspan fill="#c9d1d9">    DATABASE_URL.</tspan></text>
+<text x="22" y="548" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#7ee787">● not in your instructions yet</tspan></text>
+<text x="22" y="567" xml:space="preserve"></text>
+<text x="22" y="586" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#ff7b72">✗</tspan><tspan fill="#c9d1d9"> docker-compose up -d db</tspan></text>
+<text x="22" y="605" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#7ee787">✓</tspan><tspan fill="#c9d1d9"> docker compose up -d db</tspan></text>
+<text x="22" y="624" xml:space="preserve"><tspan fill="#6e7681">    2× in 2 sessions · last 2026-09-13 · zsh: command not found: docker-compose</tspan></text>
+<text x="22" y="643" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#6e7681">✓ documented, no repeats since</tspan></text>
+<text x="22" y="662" xml:space="preserve"></text>
+<text x="22" y="681" xml:space="preserve"></text>
+<text x="22" y="700" xml:space="preserve"><tspan fill="#c9d1d9" font-weight="700">YOU KEPT SAYING</tspan><tspan fill="#c9d1d9">  </tspan><tspan fill="#6e7681">corrections repeated across sessions (heuristic, your words)</tspan></text>
+<text x="22" y="719" xml:space="preserve"></text>
+<text x="22" y="738" xml:space="preserve"><tspan fill="#c9d1d9">  “You edited dist/ again, change the source in src/ instead”</tspan></text>
+<text x="22" y="757" xml:space="preserve"><tspan fill="#6e7681">    3× in 3 sessions · last 2026-09-22</tspan></text>
+<text x="22" y="776" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#7ee787">● not in your instructions yet</tspan></text>
+<text x="22" y="795" xml:space="preserve"></text>
+<text x="22" y="814" xml:space="preserve"><tspan fill="#c9d1d9">  “Please don't add a comment to every function”</tspan></text>
+<text x="22" y="833" xml:space="preserve"><tspan fill="#6e7681">    3× in 3 sessions · last 2026-09-28</tspan></text>
+<text x="22" y="852" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#e3b341">⚠ documented, but happened 1× since the file changed</tspan></text>
+</g></svg>
